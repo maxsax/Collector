@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4C45E8CC2001239900DC9C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45E8CB2001239900DC9C89 /* AppDelegate.swift */; };
-		4C45E8CE2001239900DC9C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45E8CD2001239900DC9C89 /* ViewController.swift */; };
 		4C45E8D12001239900DC9C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45E8CF2001239900DC9C89 /* Main.storyboard */; };
 		4C45E8D42001239900DC9C89 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C45E8D22001239900DC9C89 /* Collector.xcdatamodeld */; };
 		4C45E8D62001239900DC9C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C45E8D52001239900DC9C89 /* Assets.xcassets */; };
 		4C45E8D92001239900DC9C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45E8D72001239900DC9C89 /* LaunchScreen.storyboard */; };
+		4C45E8E1200131BD00DC9C89 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45E8E0200131BD00DC9C89 /* AddItemViewController.swift */; };
+		4C45E8E3200141C200DC9C89 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45E8E2200141C200DC9C89 /* ItemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C45E8C82001239900DC9C89 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C45E8CB2001239900DC9C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C45E8CD2001239900DC9C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C45E8D02001239900DC9C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C45E8D32001239900DC9C89 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		4C45E8D52001239900DC9C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C45E8D82001239900DC9C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C45E8DA2001239900DC9C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C45E8E0200131BD00DC9C89 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		4C45E8E2200141C200DC9C89 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				4C45E8CB2001239900DC9C89 /* AppDelegate.swift */,
-				4C45E8CD2001239900DC9C89 /* ViewController.swift */,
+				4C45E8E2200141C200DC9C89 /* ItemsTableViewController.swift */,
+				4C45E8E0200131BD00DC9C89 /* AddItemViewController.swift */,
 				4C45E8CF2001239900DC9C89 /* Main.storyboard */,
 				4C45E8D52001239900DC9C89 /* Assets.xcassets */,
 				4C45E8D72001239900DC9C89 /* LaunchScreen.storyboard */,
@@ -140,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C45E8D42001239900DC9C89 /* Collector.xcdatamodeld in Sources */,
-				4C45E8CE2001239900DC9C89 /* ViewController.swift in Sources */,
 				4C45E8CC2001239900DC9C89 /* AppDelegate.swift in Sources */,
+				4C45E8E3200141C200DC9C89 /* ItemsTableViewController.swift in Sources */,
+				4C45E8E1200131BD00DC9C89 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
